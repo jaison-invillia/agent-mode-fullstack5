@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Notebook Dell Inspiron",
+    "price": 3499.99
+  },
+  {
+    "id": 2,
+    "title": "Mouse Logitech MX Master",
+    "price": 349.90
+  },
+  {
+    "id": 3,
+    "title": "Teclado Mecânico Keychron K2",
+    "price": 599.00
+  },
+  {
+    "id": 4,
+    "title": "Monitor LG UltraWide 29\"",
+    "price": 1299.99
+  },
+  {
+    "id": 5,
+    "title": "Headset HyperX Cloud II",
+    "price": 449.90
+  },
+  {
+    "id": 6,
+    "title": "Webcam Logitech C920",
+    "price": 399.00
+  },
+  {
+    "id": 7,
+    "title": "SSD Samsung 1TB",
+    "price": 599.99
+  },
+  {
+    "id": 8,
+    "title": "Cadeira Gamer ThunderX3",
+    "price": 1199.00
+  }
+]
