@@ -12,6 +12,11 @@ app.use(cors());
 // Middleware para parsear JSON
 app.use(express.json());
 
+// Endpoint GET /health-check
+app.get('/health-check', (req, res) => {
+  res.json({ msg: 'OK' });
+});
+
 // Endpoint GET /api/products
 app.get('/api/products', (req, res) => {
   try {
@@ -31,5 +36,7 @@ app.get('/api/products', (req, res) => {
 // Iniciar servidor
 app.listen(PORT, () => {
   console.log(`🚀 Servidor rodando na porta ${PORT}`);
-  console.log(`📦 Endpoint disponível: http://localhost:${PORT}/api/products`);
+  console.log(`📦 Endpoints disponíveis:`);
+  console.log(`   - http://localhost:${PORT}/health-check`);
+  console.log(`   - http://localhost:${PORT}/api/products`);
 });
