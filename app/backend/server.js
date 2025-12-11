@@ -12,6 +12,11 @@ app.use(cors());
 // Middleware para parsear JSON
 app.use(express.json());
 
+// Endpoint GET /health-check
+app.get('/health-check', (req, res) => {
+  res.json({ msg: 'OK' });
+});
+
 // Endpoint GET /api/products
 app.get('/api/products', (req, res) => {
   try {
