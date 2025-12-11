@@ -36,5 +36,7 @@ app.get('/api/products', (req, res) => {
 // Iniciar servidor
 app.listen(PORT, () => {
   console.log(`🚀 Servidor rodando na porta ${PORT}`);
-  console.log(`📦 Endpoint disponível: http://localhost:${PORT}/api/products`);
+  console.log(`📦 Endpoints disponíveis:`);
+  console.log(`   - http://localhost:${PORT}/health-check`);
+  console.log(`   - http://localhost:${PORT}/api/products`);
 });
